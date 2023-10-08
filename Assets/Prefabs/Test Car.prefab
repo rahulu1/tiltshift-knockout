@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7196064950765356286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4345578039531324370}
+  - component: {fileID: 8153038141131044816}
+  - component: {fileID: 7643801164419591274}
+  - component: {fileID: 5996205823586039683}
+  - component: {fileID: 5245167800088545196}
+  m_Layer: 0
+  m_Name: Test Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4345578039531324370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196064950765356286}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.5, z: 0}
+  m_LocalScale: {x: 2, y: 1.5, z: 4}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1482384481088267627}
+  - {fileID: 1588120859635577229}
+  - {fileID: 717952466816436280}
+  - {fileID: 2999105222177147031}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8153038141131044816
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196064950765356286}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7643801164419591274
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196064950765356286}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5996205823586039683
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196064950765356286}
+  serializedVersion: 4
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5245167800088545196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196064950765356286}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &85100111041940396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4345578039531324370}
+    m_Modifications:
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireMass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: topSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilDamper
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRadius
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: carTopSpeed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRestPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilStrength
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: maxTireOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: steeringSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: dampeningFactor
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219895271256314016, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_Name
+      value: Wheel_BR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+--- !u!4 &2999105222177147031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+  m_PrefabInstance: {fileID: 85100111041940396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2397618832816900867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4345578039531324370}
+    m_Modifications:
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireMass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: topSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilDamper
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRadius
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: carTopSpeed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRestPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilStrength
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: maxTireOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: steeringSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: dampeningFactor
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219895271256314016, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_Name
+      value: Wheel_BL
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+--- !u!4 &717952466816436280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+  m_PrefabInstance: {fileID: 2397618832816900867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4333268243414410832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4345578039531324370}
+    m_Modifications:
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireMass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: topSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilDamper
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRadius
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: carTopSpeed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRestPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilStrength
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: maxTireOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: steeringSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: dampeningFactor
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219895271256314016, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_Name
+      value: Wheel_FL
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+--- !u!4 &1482384481088267627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+  m_PrefabInstance: {fileID: 4333268243414410832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4520070135730696886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4345578039531324370}
+    m_Modifications:
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireMass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: topSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilDamper
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRadius
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: carTopSpeed
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: tireRestPos
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: coilStrength
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: maxTireOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: steeringSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940948076513367432, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: dampeningFactor
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219895271256314016, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+      propertyPath: m_Name
+      value: Wheel_FR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+--- !u!4 &1588120859635577229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932019652452352827, guid: 814ced7829abc4dbabdd236b79d79653, type: 3}
+  m_PrefabInstance: {fileID: 4520070135730696886}
+  m_PrefabAsset: {fileID: 0}
